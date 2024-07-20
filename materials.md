@@ -7,6 +7,11 @@
 
 Если в разделе есть видео, сначала прочитай текстовые материалы: после просмотра желание читать что-либо может пропасть.
 
+Ссылки на материалы microsoft могут являться базовым вектором для изучения, так как зачастую ссылаются на корневую страницу разделов документации. Не пренебрегайте возможностью изучить эти разделы целиком.
+
+Разделы без ссылок на материалы полразумевают, что для старта вам нужно знать эти темы из всего раздела. Основной материал распологается под корневым разделом.  
+Например, в разделе [Background Jobs](#background-jobs) вам нужно знать базовые концепты из ссылки в разделе и понимать назначение интерфейсов `IHostedService` и `BackgroundService`.
+
 # Platform & Language
 
 ## Types
@@ -36,14 +41,6 @@
 ### Garbage Collector
 
 [Fundamentals of garbage collection](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
-
-### "Types" of memory
-
-#### Stack
-
-#### Small object heap
-
-#### Large object heap
 
 ## Async programming
 
@@ -76,131 +73,144 @@
 
 # ASP.NET
 
-##  Execution Pipeline
+## Execution Pipeline
 
-###  Middlewares
+### Middlewares
 
-###  Exception filters
+[ASP.NET Core Middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0)
 
-###  Access to http-context
+### Exception filters
 
-##  Dependency Injection
+[Filters in ASP.NET Core: Exception filters](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#exception-filters)
 
-###  Lifetimes
+### Access to http-context
 
-##  Background Jobs
+[Access HttpContext in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-context?view=aspnetcore-8.0)
 
-###  IHostedService
+## Dependency Injection
 
-###  BackgroundService
+[.NET dependency injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)  
+[Dependency injection in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0)
+
+### Lifetimes
+
+[.NET dependency injection: Service lifetimes](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0#service-lifetimes)
+
+## Background Jobs
+
+[Worker services in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/workers)
+
+### IHostedService
+
+### BackgroundService
 
 # ORM
 
-##  EntityFramework Core
+## EntityFramework Core
 
-###  Pros & Cons
+### Pros & Cons
 
-###  Unit Of Work
+### Unit Of Work
 
-###  Code-first
+### Code-first
 
-###  Migrations
+### Migrations
 
-###  Change Tracking
+### Change Tracking
 
-##  Dapper
+## Dapper
 
-###  Pros & Cons
+### Pros & Cons
 
 # Databases
 
-##  Relational
+## Relational
 
-###  General Database Knowledge
+### General Database Knowledge
 
-####  Indexes
+#### Indexes
 
-#####  Clustered
+##### Clustered
 
-#####  Composite
+##### Composite
 
-#####  Covering
+##### Covering
 
-####  Triggers
+#### Triggers
 
-####  Stored procedures
+#### Stored procedures
 
-####  Concurrency Models
+#### Concurrency Models
 
-#####  Optimistic
+##### Optimistic
 
-#####  Pessimistic
+##### Pessimistic
 
-###  SQL
+### SQL
 
-####  Select, from, where, limit, offset
+#### Select, from, where, limit, offset
 
-####  Order by
+#### Order by
 
-####  Group by, having
+#### Group by, having
 
-####  Aggregate functions
+#### Aggregate functions
 
-#####  Avg
+##### Avg
 
-#####  Count
+##### Count
 
-#####  Min
+##### Min
 
-#####  Max
+##### Max
 
-###  PostgreSQL
+### PostgreSQL
 
-###  MySQL
+### MySQL
 
-##  NoSQL
+## NoSQL
 
-###  Difference vs Relational
+### Difference vs Relational
 
 # Brokers
 
-##  RabbitMQ
+## RabbitMQ
 
 [RabbitMQ. Часть 1. Introduction. Erlang, AMQP](https://habr.com/ru/articles/488654/)
 [Когда и зачем нужен RabbitMQ](https://habr.com/ru/companies/slurm/articles/684412/)
 
-##  Kafka
+## Kafka
 
 [Асинхронное взаимодействие. Брокеры сообщений. Apache Kafka](https://habr.com/ru/companies/vivid_money/articles/534858/)
 
-###  Difference vs AMQP Brokers
+### Difference vs AMQP Brokers
 
 [RabbitMQ против Kafka: два разных подхода к обмену сообщениями](https://habr.com/ru/companies/itsumma/articles/416629/)
 
 # Principles & Patterns
 
-##  OOP
+## OOP
 
 [ООП в картинках](https://habr.com/ru/articles/463125/)  
 [Overview of object oriented techniques in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
 
-##  SOLID
+## SOLID
 
 [Принципы SOLID в картинках](https://habr.com/ru/companies/productivity_inside/articles/505430/)  
 [Принципы SOLID на примерах](https://habr.com/ru/articles/688530/)  
 [Принципы Solid и как они помогают сделать код лучше](https://habr.com/ru/companies/itentika/articles/694730/)
 
-##  KISS
+## KISS
 
 [KISS — принцип проектирования, содержащий все остальные принципы проектирования](https://habr.com/ru/articles/249639/)
 
-##  DRY
+## DRY
 
 [Три ключевых принципа ПО, которые вы должны понимать](https://habr.com/ru/articles/144611/)
 
 # Architecture
 
-##  Microservices
+## Microservices
 
 🎥 [Про микросервисы за 8 минут](https://youtu.be/rCbdQc42eCw?si=UQ-mfnXQOvTpb2cA)
 
@@ -208,25 +218,25 @@
 
 - Крис Ричардсон: Микросервисы. Паттерны разработки и рефакторинга
 
-###  Pros & Cons
+### Pros & Cons
 
 [Микросервисы: плюсы, минусы, когда и зачем внедрять](https://habr.com/ru/companies/slurm/articles/674600/)
 
 # General Concepts
 
-##  Methodologies
+## Methodologies
 
-###  Agile
+### Agile
 
 [Что такое методология Agile](https://evrone.ru/blog/articles/agile)  
 [Agile-манифест разработки программного обеспечения](https://agilemanifesto.org/iso/ru/manifesto.html)
 
-###  Scrum
+### Scrum
 
 [Что такое Scrum и как это освоить](https://www.atlassian.com/ru/agile/scrum)  
 🎥 [Что такое Scrum за 8 минут](https://youtu.be/jlFtHghpMhk?si=35c9t2z3KxR1lUbV)
 
-##  CI/CD
+## CI/CD
 
 [Что такое CI/CD и как эта практика связана с DevOps](https://gitinsky.com/chto-takoe-ci-cd)  
 🎥 [Про CI/CD за 5 минут](https://youtu.be/Y-hYifHkjMs?si=NyscZjYmEOq4mZdl)
