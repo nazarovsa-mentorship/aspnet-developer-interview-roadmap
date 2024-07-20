@@ -74,8 +74,6 @@
 
 ### Mutex
 
-### Slim versions
-
 # ASP.NET
 
 ##  Execution Pipeline
