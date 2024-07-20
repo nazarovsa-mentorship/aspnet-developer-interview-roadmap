@@ -108,19 +108,38 @@
 
 ## EntityFramework Core
 
+**Что почитать**
+
+Джон П. Смит: EntityFramework Core в действии
+
 ### Pros & Cons
+
+[Advantages and disadvantages of Entityframework.](https://medium.com/@anandugnath/advantages-and-disadvantages-of-entityframework-4c7b0e016788)  
+[Raw SQL vs Entity Framework Core: Which is Right for Your Application?](https://habr.com/ru/sandbox/190738/)
 
 ### Unit Of Work
 
-### Code-first
+[Unit of Work Pattern in C# for Clean Architecture: What You Need To Know](https://www.codeproject.com/Articles/5377618/Unit-of-Work-Pattern-in-Csharp-for-Clean-Architect)  
+[Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application (9 of 10)](https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
 
 ### Migrations
 
+[Managing Database Schemas](https://learn.microsoft.com/en-us/ef/core/managing-schemas/)  
+[Migrations Overview](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)
+
 ### Change Tracking
+
+[Change Tracking in EF Core](https://learn.microsoft.com/en-us/ef/core/change-tracking/)  
+[Отслеживание объектов и AsNoTracking](https://metanit.com/sharp/entityframeworkcore/5.7.php)  
+[Entity Framework Core и высокая производительность](https://habr.com/ru/articles/675310/)
 
 ## Dapper
 
+[Learn Dapper](https://www.learndapper.com) - Общие материалы
+
 ### Pros & Cons
+
+[EF VS DAPPER](https://www.manojphadnis.net/entity-framework/ef-vs-dapper)
 
 # Databases
 
