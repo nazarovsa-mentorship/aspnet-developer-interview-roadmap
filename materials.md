@@ -228,5 +228,5 @@
 
 ##  CI/CD
 
-[Что такое CI/CD и как эта практика связана с DevOps](https://gitinsky.com/chto-takoe-ci-cd)
+[Что такое CI/CD и как эта практика связана с DevOps](https://gitinsky.com/chto-takoe-ci-cd)  
 🎥 [Про CI/CD за 5 минут](https://youtu.be/Y-hYifHkjMs?si=NyscZjYmEOq4mZdl)
