@@ -49,12 +49,12 @@
 
 ### Task
 
-[Task-based asynchronous programming](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming)
+[Task-based asynchronous programming](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming)  
 🎥❗️ [CLRium #6: Tasks](https://youtu.be/HiKzuWbRgPM?si=aBcgmxYIUj6nLRYp)
 
 ### async/await
 
-[Asynchronous programming with async and await](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)
+[Asynchronous programming with async and await](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)  
 [Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/articles/470830/)  
 ❗️ [Как на самом деле работает Async/Await в C# (Часть 1)](https://habr.com/ru/articles/727850/)  
 🎥❗️ [CLRium #6: async/await. Машина состояний](https://youtu.be/_suxE9frTFA?si=ORA-S7AmEyEL4BqJ)
