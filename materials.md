@@ -141,55 +141,75 @@
 
 [EF VS DAPPER](https://www.manojphadnis.net/entity-framework/ef-vs-dapper)
 
+## Concurrency Models
+
+[Optimistic vs Pessimistic Concurrency: What Every Developer Should Know](https://cult.honeypot.io/reads/optimistic-vs-pessimistic-concurrency/)  
+[Optimistic Concurrency - ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/optimistic-concurrency)
+
 # Databases
 
 ## Relational
+
+[Что такое реляционная база данных (РСУБД)?](https://www.oracle.com/cis/database/what-is-a-relational-database/)
 
 ### General Database Knowledge
 
 #### Indexes
 
-##### Clustered
+Начни с видео.
 
-##### Composite
-
-##### Covering
-
-#### Triggers
+[SQL Indexing and Tuning e-Book](https://use-the-index-luke.com)  
+[What is a Database Index?](https://www.codecademy.com/article/sql-indexes)  
+🎥 [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA)
 
 #### Stored procedures
 
-#### Concurrency Models
-
-##### Optimistic
-
-##### Pessimistic
+[Understanding Stored Procedures in SQL: Benefits & Creation!](https://www.simplilearn.com/tutorials/sql-tutorial/stored-procedure-in-sql)
+[Stored procedure](https://www.techtarget.com/searchoracle/definition/stored-procedure#:~:text=A%20stored%20procedure%20is%20a,and%20shared%20by%20multiple%20programs.)
 
 ### SQL
 
-#### Select, from, where, limit, offset
+#### Select
+
+[SQL SELECT Statement](https://www.w3schools.com/sql/sql_select.asp)  
+[SQL WHERE Clause](https://www.w3schools.com/sql/sql_where.asp)  
+[SQL AND Operator](https://www.w3schools.com/sql/sql_and.asp)  
+[SQL OR Operator](https://www.w3schools.com/sql/sql_or.asp)  
+[SQL NOT Operator](https://www.w3schools.com/sql/sql_not.asp)
+
+#### Limit, offset
+
+[SQL TOP, LIMIT, FETCH FIRST or ROWNUM](https://www.w3schools.com/sql/sql_top.asp)
 
 #### Order by
 
+[SQL ORDER BY Keyword](https://www.w3schools.com/sql/sql_orderby.asp)
+
+#### Join
+
+[SQL Joins](https://www.w3schools.com/sql/sql_join.asp)  
+[SQL INNER JOIN](https://www.w3schools.com/sql/sql_join_inner.asp)  
+[SQL LEFT JOIN Keyword](https://www.w3schools.com/sql/sql_join_left.asp)  
+[SQL RIGHT JOIN Keyword](https://www.w3schools.com/sql/sql_join_right.asp)  
+[SQL FULL OUTER JOIN Keyword](https://www.w3schools.com/sql/sql_join_full.asp)  
+[SQL Self Join](https://www.w3schools.com/sql/sql_join_self.asp)
+
 #### Group by, having
+
+[SQL GROUP BY Statement](https://www.w3schools.com/sql/sql_groupby.asp)  
+[SQL HAVING Clause](https://www.w3schools.com/sql/sql_having.asp)
 
 #### Aggregate functions
 
-##### Avg
-
-##### Count
-
-##### Min
-
-##### Max
-
-### PostgreSQL
-
-### MySQL
+[SQL Aggregate Functions](https://www.w3schools.com/sql/sql_aggregate_functions.asp)
 
 ## NoSQL
 
+[What is NoSQL?](https://www.mongodb.com/resources/basics/databases/nosql-explained)
+
 ### Difference vs Relational
+
+[Relational vs. Non-Relational Databases](https://www.mongodb.com/resources/compare/relational-vs-non-relational-databases)
 
 # Brokers
 
