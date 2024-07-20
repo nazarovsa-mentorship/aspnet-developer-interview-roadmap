@@ -1,5 +1,10 @@
 # Материалы для изучения
 
+**Легенда**
+
+🎥 - Видео  
+❗️ - Сложный материал
+
 Если в разделе есть видео, сначала прочитай текстовые материалы: после просмотра желание читать что-либо может пропасть.
 
 # Platform & Language
@@ -8,19 +13,29 @@
 
 ### Value types
 
+[Value types (C# reference)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
+
 ### Reference types
 
-### Value vs Reference types
+[Reference types (C# reference)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)  
+[Типы значений и ссылочные типы](https://metanit.com/sharp/tutorial/2.16.php)
 
-### Inheritance
+### Reflection
+
+[Рефлексия](https://metanit.com/sharp/tutorial/14.1.php)  
+❗️[.NET Reflection. Упрощаем работу и используем в тестировании](https://habr.com/ru/articles/716104/)
 
 ## Memory management
 
+[CLRium #5: Курс "Garbage Collector". 1/7: Основы строения памяти](https://www.youtube.com/watch?v=DVnmGW6964o&list=PLBwwJL9lzKMY3At-QQQijfiHdsYnOQ7vY) - Плейлист о строении памяти в .net.
+
+### Managed code
+
+[What is "managed code"?](https://learn.microsoft.com/en-us/dotnet/standard/managed-code)
+
 ### Garbage Collector
 
-#### Generations
-
-#### Phases
+[Fundamentals of garbage collection](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 
 ### "Types" of memory
 
@@ -34,9 +49,20 @@
 
 ### Task
 
+[Task-based asynchronous programming](https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/task-based-asynchronous-programming)
+🎥❗️ [CLRium #6: Tasks](https://youtu.be/HiKzuWbRgPM?si=aBcgmxYIUj6nLRYp)
+
 ### async/await
 
+[Asynchronous programming with async and await](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)
+[Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/articles/470830/)  
+❗️ [Как на самом деле работает Async/Await в C# (Часть 1)](https://habr.com/ru/articles/727850/)  
+🎥❗️ [CLRium #6: async/await. Машина состояний](https://youtu.be/_suxE9frTFA?si=ORA-S7AmEyEL4BqJ)
+
 ## Synchronization
+
+[.NET: Инструменты для работы с многопоточностью и асинхронностью. Часть 1](https://habr.com/ru/articles/452094/)  
+[.NET: Инструменты для работы с многопоточностью и асинхронностью. Часть 2](https://habr.com/ru/articles/459514/)
 
 ### Monitor (lock)
 
@@ -49,8 +75,6 @@
 ### Mutex
 
 ### Slim versions
-
-## Reflection
 
 # ASP.NET
 
@@ -159,7 +183,8 @@
 
 ##  OOP
 
-[ООП в картинках](https://habr.com/ru/articles/463125/)
+[ООП в картинках](https://habr.com/ru/articles/463125/)  
+[Overview of object oriented techniques in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
 
 ##  SOLID
 
@@ -179,7 +204,7 @@
 
 ##  Microservices
 
-[Про микросервисы за 8 минут](https://youtu.be/rCbdQc42eCw?si=UQ-mfnXQOvTpb2cA) - Видео
+🎥 [Про микросервисы за 8 минут](https://youtu.be/rCbdQc42eCw?si=UQ-mfnXQOvTpb2cA)
 
 **Что почитать**
 
@@ -195,15 +220,15 @@
 
 ###  Agile
 
-[Что такое методология Agile](https://evrone.ru/blog/articles/agile)
+[Что такое методология Agile](https://evrone.ru/blog/articles/agile)  
 [Agile-манифест разработки программного обеспечения](https://agilemanifesto.org/iso/ru/manifesto.html)
 
 ###  Scrum
 
 [Что такое Scrum и как это освоить](https://www.atlassian.com/ru/agile/scrum)  
-[Что такое Scrum за 8 минут](https://youtu.be/jlFtHghpMhk?si=35c9t2z3KxR1lUbV) - Видео
+🎥 [Что такое Scrum за 8 минут](https://youtu.be/jlFtHghpMhk?si=35c9t2z3KxR1lUbV)
 
 ##  CI/CD
 
 [Что такое CI/CD и как эта практика связана с DevOps](https://gitinsky.com/chto-takoe-ci-cd)
-[Про CI/CD за 5 минут](https://youtu.be/Y-hYifHkjMs?si=NyscZjYmEOq4mZdl) - Видео
+🎥 [Про CI/CD за 5 минут](https://youtu.be/Y-hYifHkjMs?si=NyscZjYmEOq4mZdl)
