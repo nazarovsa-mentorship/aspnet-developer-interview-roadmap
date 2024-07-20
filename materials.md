@@ -187,26 +187,44 @@
 
 [RabbitMQ против Kafka: два разных подхода к обмену сообщениями](https://habr.com/ru/companies/itsumma/articles/416629/)
 
+## Delivery Guarantees
+
+[Outbox, Inbox patterns and delivery guarantees explained](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)  
+
 # Principles & Patterns
 
-## OOP
+## Principles
+
+### OOP
 
 [ООП в картинках](https://habr.com/ru/articles/463125/)  
 [Overview of object oriented techniques in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
 
-## SOLID
+### SOLID
 
 [Принципы SOLID в картинках](https://habr.com/ru/companies/productivity_inside/articles/505430/)  
 [Принципы SOLID на примерах](https://habr.com/ru/articles/688530/)  
 [Принципы Solid и как они помогают сделать код лучше](https://habr.com/ru/companies/itentika/articles/694730/)
 
-## KISS
+### KISS
 
 [KISS — принцип проектирования, содержащий все остальные принципы проектирования](https://habr.com/ru/articles/249639/)
 
-## DRY
+### DRY
 
 [Три ключевых принципа ПО, которые вы должны понимать](https://habr.com/ru/articles/144611/)
+
+## Patterns
+
+### Transactional Outbox / Inbox
+
+[Outbox, Inbox patterns and delivery guarantees explained](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)  
+[Pattern: Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html)
+
+
+### Saga
+
+[Pattern: Saga](https://microservices.io/patterns/data/saga.html)
 
 # Architecture
 
