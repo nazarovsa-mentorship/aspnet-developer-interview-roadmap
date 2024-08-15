@@ -42,6 +42,11 @@
 
 [Fundamentals of garbage collection](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 
+### Finalizers & Disposable
+
+[Finalizers (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/finalizers)
+[Финализируемые объекты](https://metanit.com/sharp/tutorial/8.2.php)
+
 ## Async programming
 
 ### Task
