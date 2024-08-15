@@ -44,7 +44,7 @@
 
 ### Finalizers & Disposable
 
-[Finalizers (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/finalizers)
+[Finalizers (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/finalizers)  
 [Финализируемые объекты](https://metanit.com/sharp/tutorial/8.2.php)
 
 ## Async programming
