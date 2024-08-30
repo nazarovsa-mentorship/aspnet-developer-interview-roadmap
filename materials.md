@@ -115,7 +115,7 @@
 
 **Что почитать**
 
-Джон П. Смит: EntityFramework Core в действии
+Джон П. Смит: EntityFramework Core в действии - Главы 1, 2, 3, 4, 5
 
 ### Pros & Cons
 
