@@ -229,6 +229,7 @@
 
 ### Difference vs AMQP Brokers
 
+[AWS: What’s the Difference Between Kafka and RabbitMQ?](https://aws.amazon.com/compare/the-difference-between-rabbitmq-and-kafka/)
 [RabbitMQ против Kafka: два разных подхода к обмену сообщениями](https://habr.com/ru/companies/itsumma/articles/416629/)
 
 ## Delivery Guarantees
