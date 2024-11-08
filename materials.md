@@ -4,6 +4,7 @@
 
 🎥 - Видео  
 ❗️ - Сложный материал
+🗂️ - Тема исключена из роадмапа, но материалы остались для общего ознакомления
 
 Если в разделе есть видео, сначала прочитай текстовые материалы: после просмотра желание читать что-либо может пропасть.
 
@@ -13,6 +14,10 @@
 Например, в разделе [Background Jobs](#background-jobs) вам нужно знать базовые концепты из ссылки в разделе и понимать назначение интерфейсов `IHostedService` и `BackgroundService`.
 
 # Platform & Language
+
+### Managed code
+
+[What is "managed code"?](https://learn.microsoft.com/en-us/dotnet/standard/managed-code)
 
 ## Types
 
@@ -33,10 +38,6 @@
 ## Memory management
 
 [CLRium #5: Курс "Garbage Collector". 1/7: Основы строения памяти](https://www.youtube.com/watch?v=DVnmGW6964o&list=PLBwwJL9lzKMY3At-QQQijfiHdsYnOQ7vY) - Плейлист о строении памяти в .net.
-
-### Managed code
-
-[What is "managed code"?](https://learn.microsoft.com/en-us/dotnet/standard/managed-code)
 
 ### Garbage Collector
 
@@ -489,7 +490,7 @@ public class Program
 [Advantages and disadvantages of Entityframework.](https://medium.com/@anandugnath/advantages-and-disadvantages-of-entityframework-4c7b0e016788)  
 [Raw SQL vs Entity Framework Core: Which is Right for Your Application?](https://habr.com/ru/sandbox/190738/)
 
-### Unit Of Work
+### 🗂️ Unit Of Work
 
 [Unit of Work Pattern in C# for Clean Architecture: What You Need To Know](https://www.codeproject.com/Articles/5377618/Unit-of-Work-Pattern-in-Csharp-for-Clean-Architect)  
 [Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application (9 of 10)](https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
@@ -534,7 +535,7 @@ public class Program
 [What is a Database Index?](https://www.codecademy.com/article/sql-indexes)  
 🎥 [Что такое SQL ИНДЕКСЫ за 10 минут: Объяснение с примерами](https://www.youtube.com/watch?v=LpEwssOYRKA)
 
-#### Stored procedures
+#### 🗂️ Stored procedures
 
 [Understanding Stored Procedures in SQL: Benefits & Creation!](https://www.simplilearn.com/tutorials/sql-tutorial/stored-procedure-in-sql)
 [Stored procedure](https://www.techtarget.com/searchoracle/definition/stored-procedure#:~:text=A%20stored%20procedure%20is%20a,and%20shared%20by%20multiple%20programs.)
@@ -603,40 +604,6 @@ public class Program
 
 [Outbox, Inbox patterns and delivery guarantees explained](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)  
 
-# Principles & Patterns
-
-## Principles
-
-### OOP
-
-[ООП в картинках](https://habr.com/ru/articles/463125/)  
-[Overview of object oriented techniques in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
-
-### SOLID
-
-[Принципы SOLID в картинках](https://habr.com/ru/companies/productivity_inside/articles/505430/)  
-[Принципы SOLID на примерах](https://habr.com/ru/articles/688530/)  
-[Принципы Solid и как они помогают сделать код лучше](https://habr.com/ru/companies/itentika/articles/694730/)
-
-### KISS
-
-[KISS — принцип проектирования, содержащий все остальные принципы проектирования](https://habr.com/ru/articles/249639/)
-
-### DRY
-
-[Три ключевых принципа ПО, которые вы должны понимать](https://habr.com/ru/articles/144611/)
-
-## Patterns
-
-### Transactional Outbox / Inbox
-
-[Outbox, Inbox patterns and delivery guarantees explained](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)  
-[Pattern: Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html)
-
-
-### Saga
-
-[Pattern: Saga](https://microservices.io/patterns/data/saga.html)
 
 # Architecture
 
@@ -651,6 +618,41 @@ public class Program
 ### Pros & Cons
 
 [Микросервисы: плюсы, минусы, когда и зачем внедрять](https://habr.com/ru/companies/slurm/articles/674600/)
+
+## Patterns
+
+### Transactional Outbox
+
+[Pattern: Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html)
+
+### Transactional Inbox
+
+[Outbox, Inbox patterns and delivery guarantees explained](https://event-driven.io/en/outbox_inbox_patterns_and_delivery_guarantees_explained/)  
+
+### Saga
+
+[Pattern: Saga](https://microservices.io/patterns/data/saga.html)
+
+# Principles
+
+## OOP
+
+[ООП в картинках](https://habr.com/ru/articles/463125/)  
+[Overview of object oriented techniques in C#](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/)
+
+## SOLID
+
+[Принципы SOLID в картинках](https://habr.com/ru/companies/productivity_inside/articles/505430/)  
+[Принципы SOLID на примерах](https://habr.com/ru/articles/688530/)  
+[Принципы Solid и как они помогают сделать код лучше](https://habr.com/ru/companies/itentika/articles/694730/)
+
+## KISS
+
+[KISS — принцип проектирования, содержащий все остальные принципы проектирования](https://habr.com/ru/articles/249639/)
+
+## DRY
+
+[Три ключевых принципа ПО, которые вы должны понимать](https://habr.com/ru/articles/144611/)
 
 # General Concepts
 
