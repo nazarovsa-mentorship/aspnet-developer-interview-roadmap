@@ -134,7 +134,7 @@
 
 - Для чего нужен паттерн Transactional Inbox?
 - Как реализовать паттерн Trasncational Inbox?
-- 
+
 ### Transactional Inbox
 
 - Для чего нужен паттерн Transactional Inbox?
