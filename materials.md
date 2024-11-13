@@ -72,6 +72,8 @@
 
 ## Synchronization
 
+[Авторские материалы](./materials/003-synchronization.md)
+
 [.NET: Инструменты для работы с многопоточностью и асинхронностью. Часть 1](https://habr.com/ru/articles/452094/)  
 [.NET: Инструменты для работы с многопоточностью и асинхронностью. Часть 2](https://habr.com/ru/articles/459514/)
 

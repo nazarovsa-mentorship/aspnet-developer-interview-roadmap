@@ -256,4 +256,115 @@ public class ApiClient
 
 # Что такое ReaderWriterLock? Для чего нужен?
 
+**ReaderWriterLock** - это примитив синхронизации, который предназначен для использования в сценариях, когда много операций чтения и мало операций записи. Он позволяет разделять блокировки на чтение и запись. При этом чтение могут выполнять несколько потоков, а запись только один.
+
+Существует облегченная версия `ReaderWriterLockSlim`.
+
+```csharp
+public class ThreadSafeCache
+{
+    private readonly ReaderWriterLockSlim _lock = new ReaderWriterLockSlim();
+    private readonly Dictionary<string, string> _cache = new Dictionary<string, string>();
+
+    // Чтение (много потоков одновременно)
+    public string Read(string key)
+    {
+        _lock.EnterReadLock();
+        try
+        {
+            return _cache.TryGetValue(key, out var value) ? value : null;
+        }
+        finally
+        {
+            _lock.ExitReadLock();
+        }
+    }
+
+    // Запись (только один поток)
+    public void Write(string key, string value)
+    {
+        _lock.EnterWriteLock();
+        try
+        {
+            _cache[key] = value;
+        }
+        finally
+        {
+            _lock.ExitWriteLock();
+        }
+    }
+
+    public void Dispose()
+    {
+        _lock.Dispose();
+    }
+}
+```
+
 # Что такое Interlocked? Для чего нужен?
+
+**Interlocked** - это примитив синхронизации, который позволяет выполнять атомарные операции над примитивными типами без использования блокировок. Он имеет высокую производительность за счет использования атомарных инструкций процессора.
+
+**Может быть использован для увеличение или уменьшения целочисленного значения**
+```csharp
+public class AtomicCounter
+{
+    private long _value;
+
+    public void Increment()
+    {
+        Interlocked.Increment(ref _value); // Атомарно +1
+    }
+
+    public void Decrement()
+    {
+        Interlocked.Decrement(ref _value); // Атомарно -1
+    }
+}
+```
+
+**Для замены значения**
+```csharp
+public class AtomicValue
+{
+    private int _value;
+
+    public void SetValue(int newValue)
+    {
+        // Атомарно заменяет значение и возвращает старое
+        int oldValue = Interlocked.Exchange(ref _value, newValue);
+    }
+}
+```
+
+**Для условной замены значения**
+```csharp
+public class LazyInit
+{
+    private object _instance;
+
+    public object GetInstance()
+    {
+        if (_instance == null)
+        {
+            object newInstance = new object();
+            // Замена только если _instance == null
+            Interlocked.CompareExchange(ref _instance, newInstance, null);
+        }
+        return _instance;
+    }
+}
+```
+
+**Для сложения**
+```csharp
+public class AtomicSum
+{
+    private long _sum;
+
+    public void AddValue(long value)
+    {
+        Interlocked.Add(ref _sum, value);
+    }
+}
+```
