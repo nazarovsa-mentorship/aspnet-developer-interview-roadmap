@@ -44,7 +44,7 @@
 
 ## Memory management
 
-[Авторские материалы](./materials/004-memory.md)
+[Авторские материалы](./materials/004-memory.md)  
 [CLRium #5: Курс "Garbage Collector". 1/7: Основы строения памяти](https://www.youtube.com/watch?v=DVnmGW6964o&list=PLBwwJL9lzKMY3At-QQQijfiHdsYnOQ7vY) - Плейлист о строении памяти в .net.
 
 ### Garbage Collector
