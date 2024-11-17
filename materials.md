@@ -37,12 +37,18 @@
 [Рефлексия](https://metanit.com/sharp/tutorial/14.1.php)  
 ❗️[.NET Reflection. Упрощаем работу и используем в тестировании](https://habr.com/ru/articles/716104/)
 
+### Boxing
+
+[Microsoft docs: Boxing and unboxing](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)  
+[Microsoft docs: Boxing and unboxing performance](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
+
 ## Memory management
 
 [CLRium #5: Курс "Garbage Collector". 1/7: Основы строения памяти](https://www.youtube.com/watch?v=DVnmGW6964o&list=PLBwwJL9lzKMY3At-QQQijfiHdsYnOQ7vY) - Плейлист о строении памяти в .net.
 
 ### Garbage Collector
 
+[На спор: прочитав до конца, вы поймёте, как и почему именно так работает GC](https://habr.com/ru/companies/clrium/articles/464169/)
 [Fundamentals of garbage collection](https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 
 ### Finalizers & Disposable
